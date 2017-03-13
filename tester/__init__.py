@@ -1,1 +1,1 @@
-from .tester import *
+__all__ = ["tester"]
