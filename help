@@ -22,9 +22,3 @@ for x in args:
         dir(o)
 
 help(getattr(o, opt.prop)) if opt.prop else help(o)
-'''
-if not opt.prop:
-    help(o)
-else:
-    help(getattr(o, opt.prop))
-'''
